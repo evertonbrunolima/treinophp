@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>resultado</title>
+</head>
+<body>
+    <head><h1>resultado do processamento</h1></head>
+    <main>
+        <?php
+            // no php o operador de concatenação é o . ponto 
+            print "mostrando "." isso"; 
+
+            //todos os operadores aritméticos são iguais as outras linguagens 
+
+            //funções aritméticas:
+            //abs() <- retorna o modulo do valor 
+            $r = abs(-500); 
+            print "<br>"."$r"; 
+            //base_coonvert(numero, base_do_numero, base_que_quero) <- conversor de base 
+            $r = base_convert(50,10,2); 
+            print "<br>"."$r"; 
+            //ceil() <- arrendoda para cima 
+            //floor() <- arrendoda para baixa
+            //round() <- arrendoda o numero 
+            $r = ceil(10.5); 
+            print "<br>"."$r"; 
+            $r =floor(50.2); 
+            print "<br>"."$r"; 
+            $r = round(5.4); 
+            print "<br>"."$r"; 
+            //hypot(cateto,cateto) <- retorna hipotenusa
+            $r = hypot(3,4); 
+            print "<br>"."$r";
+            //intdiv(x,y) <- retorna o valor inteiro da divisão de x/y 
+            $r = intdiv(5,2); 
+            print "<br>"."$r";
+            //min(x,y) <- retorna o valor minino de todos os parametros
+            // max(x,y) <- retorna o maior
+            $r = min(5,2,3,4,5,5,67,1); 
+            print "<br>"."$r";
+            $r = max(5,2,10,3,5,6,7,90); 
+            print "<br>"."$r";
+            //pi() <- valor de pi 
+            //sin(), cos(), tan()
+            //sqrt()
+            
+
+
+
+        ?>
+    </main>
+
+</body>
+</html>
